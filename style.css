@@ -1,0 +1,60 @@
+/*
+ Theme Name: mesmerize child
+ Theme URI: https://extendthemes.com/go/mesmerize-home/
+ Template: mesmerize
+ Author: Matthew Tedesco
+ Version: 1.0.0
+ Author URI: http://localhost/wp/wordpress-5.3.2/wordpress/
+ Description: Mesmerize was modified to produce the adequate child theme for MediCare.
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../mesmerize/style.css");
+
+/*General background colour*/
+.mesmerize-inner-page .page-content, .mesmerize-inner-page .content, .mesmerize-front-page.mesmerize-content-padding .page-content {
+    background-color: #FFFFFF;
+}
+
+/*Footer base colour*/
+.footer-content-lists .footer-content {
+  background-color: #333333;
+}
+
+/*Footer text colour*/
+.footer-content-lists a {
+    color: #fff;
+}
+
+/*Header Arrow Increased in Size and Top Bar Image Linear*/
+body i[class*="fa-"], body span[class*="fa-"] {
+    font: normal normal normal 25px/21px FontAwesome;
+}
+
+/*TopBar Modified From Black to Blue*/
+.header-top-bar {
+  background-color: #03A9F4;
+}
+
+/*Button Font Size Increased*/
+.button.big {
+    font-size: 0.95rem;
+}
+
+/*Widge Titles Bold*/
+h1.title, h1, h2, h3, h4, h5, .comment-author .fn, h6 {
+  font-weight: bold;
+}
+
+/*Centerise an image*/
+img, video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer Copyright Statement Eliminated*/
+.copyright{
+    visibility: hidden;
+}
